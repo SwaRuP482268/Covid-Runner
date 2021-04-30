@@ -36,7 +36,7 @@ function setup() {
   man = createSprite(150,200,50,50);
   man.addAnimation("running",manImg);
   man.scale=0.10;
-  man.debug=true;
+  ///man.debug=true;
   man.setCollider("rectangle",0,0,40,40);
 
   end1 = createSprite(200,300,200,200);
